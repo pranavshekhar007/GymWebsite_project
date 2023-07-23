@@ -1,0 +1,8 @@
+ font-family: 'Crimson Text', serif;
+font-family: 'Lugrasimo', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lugrasimo&family=Quicksand&family=Roboto:wght@700&family=Schibsted+Grotesk&family=Ubuntu:ital@1&display=swap');
+ 

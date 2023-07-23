@@ -1,0 +1,540 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=DM+Sans&family=Lugrasimo&family=Montserrat:ital,wght@1,500&family=Quicksand&family=Roboto:wght@700&family=Schibsted+Grotesk&family=Ubuntu:ital@1&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background-color:#000000;
+    z-index: 100000;
+}
+.navbar h2{
+    color:yellow;
+    font-size: 2.3rem ;
+    font: italic;
+    
+}
+.backg{
+    background-image: url(https://i.pinimg.com/originals/52/8c/79/528c79c659f228cd3daf5bfe69b03918.jpg);
+width: 100%;
+height: 100vh;
+background-size: cover  ;
+z-index: -1;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.item li a{
+     text-decoration: none;
+     font-size: 1rem;
+     color: rgb(238, 219, 13);
+}
+.item li a:hover, .item .icon i:hover{
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+
+}
+.item .icon i{
+    color: rgb(231, 11, 11);
+    padding-right: 30px;
+    font-weight: 800;
+
+}
+.item li{
+    list-style: none;
+    padding-right: 50px; 
+}
+.backg .overlay{
+        background: rgb(0, 0, 0);
+        height: 100%;
+        width: 100%;
+        opacity: 0.55;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    text-align: center;
+}
+.mid p{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1.4 rem ;
+    padding-top: 78px;
+
+}
+.mid h2{
+    padding-top: 60px;
+    color: white;
+    font-size: 3rem;
+}
+.mid .btn {
+    margin-top: 7rem;
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase; 
+   
+}
+.mid .btn a.simple{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 1rem 1.6rem; 
+}
+.mid .btn a.simple:hover{
+color: rgb(252, 244, 3);
+}
+.mid .btn a.border{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 3px; 
+    padding: 1rem 1.6rem; 
+}
+.mid .btn a.border:hover{
+    background-color: rgb(244, 240, 6);
+    border: 1px solid rgb(2, 0, 0);
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 8rem 14rem;
+ 
+background-image: url(/bg1.jpg);
+width: 100%;
+height: 100vh;
+background-size: cover  ;
+z-index: -1;
+opacity: 0.80;
+}
+
+ .details h3,h6,p{
+    color:rgb(0, 0, 0);
+ }
+ .details .one {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+ }
+
+ .details .two {
+    width: 45%;
+    border-left: 1px solid black;
+    padding-left: 4rem; 
+ }
+ .details .one h3{
+ font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+ }
+ .details .one p{
+    font-weight: 400;
+    font-size: 1.3rem;
+ }
+ .details .one h6{
+    font-weight: 600;
+    color: rgb(0, 2, 1);
+    font-size: 1.3rem;
+    padding-bottom:  2rem;
+ }
+ .details .one a{
+  color: beige;
+  background: #0a0900;
+  padding: 1rem ;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center; 
+    
+ }
+ .details .one a:hover{
+    background-color: #383534;
+    color: rgb(246, 247, 247);
+ }
+ .details .two h3{
+    font-size: 2.3rem;
+    padding-bottom: 1rem; 
+ }
+ .details .two h5{
+    font-size: 1.5rem;
+    padding-bottom: 1.1rem; 
+ }
+ .details .two p{
+    font-size: 1.3rem;
+    padding-bottom: 0.9rem; 
+ margin: 0.8 rem;
+ }
+
+.trainer{
+    background-color: #000000;
+ padding: 8rem; 
+ display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+}
+
+.trainer .about{
+     width: 39%;
+}
+
+.trainer .about h2{
+    color: #f8f8f8 ;
+    font-size: 2.1rem;
+    padding-bottom :1.8rem ;  
+}
+
+.trainer .about p{
+    color: rgb(239, 230, 230);
+    font-size: 1.1rem;
+     
+}
+.trainer .people{
+width: 57%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+ 
+}
+.trainer .people .team1{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box  ;
+    background-color:  #fcf5f5;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.025),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.032),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.04),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.049),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.trainer .people .team1 .image img{
+    width: 100%;
+    height: 16rem;
+    object-fit: cover; 
+}
+.trainer .people .team1 .anme{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.trainer .people .team1 .pro{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-items: center ;
+}
+.trainer .people .team1 .anme h4{
+color: #383534;
+font-size: 1.5rem;
+
+}
+.trainer .people .team1 .anme i,.trainer .people .team1 .pro i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.trainer .people .team1 .pro p {
+    color: #383534;
+   
+}    
+.trainer .people .team1 .teamdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.trainer .people .team1 .anme{
+    padding: 5px 20px 0px 20px;
+}
+.trainer .people .team1 .pro{
+    padding: 5px 20px 0px 20px;
+}
+
+.trainer .people .team2{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box  ;
+    background-color: #fcf5f5;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.025),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.032),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.04),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.049),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.trainer .people .team2 .image img{
+    width: 100%;
+    object-fit: cover; 
+}
+.trainer .people .team2 .anme{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.trainer .people .team2 .pro{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-items: center ;
+}
+.trainer .people .team2 .anme h4{
+color: #383534;
+font-size: 1.5rem;
+
+}
+.trainer .people .team2 .anme i,.trainer .people .team2 .pro i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.trainer .people .team2 .pro p {
+    color: #383534;
+   
+}    
+.trainer .people .team2 .teamdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.trainer .people .team2 .anme{
+    padding: 5px 20px 0px 20px;
+}
+.trainer .people .team2 .pro{
+    padding: 5px 20px 0px 20px;
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+padding: 7rem 8rem;
+background-color: yellow;
+}
+.class .para{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+.class .high{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom:50px;
+    text-align: center;
+
+
+}
+
+.class .classmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.class .classmenu  .team1{
+    width: 32% ;
+    height: auto;
+    box-sizing: border-box  ;
+    background-color: #fcf5f5;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.025),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.032),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.04),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.049),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.class .classmenu .team1 .image img{
+    width: 100%;
+    object-fit: cover; 
+
+}
+.class .classmenu .team1 .teamdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.class .classmenu .team1 .teamdetails .anme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+padding: 5px 30px 0px 30px;
+}
+
+
+.class .classmenu .team1 .teamdetails .anme .namedetail h4{
+ color: #3d2219;
+ font-size: 1.3rem;    
+}
+.class .classmenu .team1 .teamdetails .anme .namedetail p span{
+   font-weight: 700;
+    font-size: 1.3rem;    
+   }
+   .class .classmenu .team1 .teamdetails .anme .num{
+    
+     font-size: 1.3rem;  
+     background-color: #f1cf11;
+     height: 3.5rem;
+     width: 3.5rem;
+     line-height: 3.5rem; 
+     text-align: center;
+     border-radius: 50%;  
+    }
+    .class .classmenu .team1 .pro{
+        padding: 15px 30px 30px 30px;
+    }
+    .class .classmenu .team1 .pro p{
+    
+        font-size: 1.1rem;  
+    color: #666262;
+    }
+
+    .contact{
+        padding: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+
+    }
+    .contact .form{
+      width: 45%;
+
+    }
+    .contact .form h2{
+       font-size: 2rem;
+       color: rgb(245, 249, 249);
+       padding-bottom: 10px;
+width: 100%;
+
+      } 
+      .contact .form .submit{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start  ;
+      }
+      .contact .form .submit input, .contact .form .submit textarea{
+        width: 100%;
+        padding: 15px;
+        border: 1px solid black;
+        outline: none;
+        margin: 40px 0px;
+
+      }
+      .contact .form .submit input, .contact .form .submit textarea:focus{
+        border: 1px solid black;
+      }
+      .contact .form .submit input::placeholder{
+        color: #000;
+        font-size: 1.1rem;
+    }
+    .contact .form .submit textarea::placeholder{
+        color: #000;
+        font-size: 1.1rem;
+        height: 80%;
+    }
+    .contact .form .submit a{
+        width: 100%;
+color: #000000;
+        padding: 15px 0px;
+        font-size: large;
+        font-weight: 700;
+        text-decoration: none;
+        background-color: #fdf109;
+        text-align: center;
+        margin: 13px 0px;
+    }
+    .contact .map{
+        width: 45%;
+        height: 40%;
+        
+    }
+    .contact .map h2{
+       font-size: 2rem;
+       color: #faf8f8;
+       padding-bottom: 10px;
+        width: 100%;
+        
+    }
+    .contact .map p{
+        font-size: 1.1rem;
+        color: #fffdfd;
+        padding-bottom: 30px;
+         width: 100%;
+         
+     }
+    .contact .map iframe{
+        width: 100%;
+        
+    }
+    .footer{
+        background-color: yellow;
+        border-top: 1px solid black;
+        padding: 5rem 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer p{
+        font-size: 1.4rem;
+        font-weight: 400; 
+        color: #000000;
+        justify-content: flex-start;
+         
+    }
+    .footer p i{
+        padding-right: 10px ;
+    }
